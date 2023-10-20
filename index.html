@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form action="" method="">
+        <table>
+        <tr>
+            <td>
+                <label for="name">
+                    Enter name:
+                </label>
+            </td>
+            <td><input type="text" name="name" id="name" value="Book 1"></td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="author">
+                    Enter author:
+                </label>
+            </td>
+            <td><input type="text" name="author" id="author" value="Author 1"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pages">
+                    Enter pages:
+                </label>
+            </td>
+            <td><input type="number" name="pages" id="pages" value=100></td>
+        </tr>
+    
+        <tr>
+            <td>
+                <label for="read">
+                    Already read?
+                </label>
+            </td>
+            <td><input type="checkbox" name="read" id="read" checked></td>
+        </tr>
+        <tr>
+            <td><button>Submit</button></td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <table border="2" cellpadding="10">
+        <thead>
+            <th>Book id</th>
+            <th>Book name</th>
+            <th>Book author</th>
+            <th>Book pages</th>
+            <th>Already read?</th>
+            <th>Book Action</th>
+        </thead>
+        <tbody class="book-table">
+
+        </tbody>
+    </table>
+
+</body>
+</html>
