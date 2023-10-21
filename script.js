@@ -98,4 +98,4 @@ class LibraryUI {
     }
 }
 
-new LibraryUI
+Library = new LibraryUI
